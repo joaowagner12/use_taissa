@@ -1,12 +1,12 @@
 .nav {
 
         justify-content: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 7%;
+        padding-bottom: 7%;
         padding-left: 1%;
         padding-right: 1%;
         display: flex;
-        gap: 10%;
+        gap: 20%;
         align-items: center;
 }
 
@@ -15,5 +15,14 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        gap: 15%;
+        gap: 40%;
+}
+
+a{
+        display: inline-block;
+}
+
+.cabecalho_img{
+        height: 1.7em;
+        width: auto;
 }
