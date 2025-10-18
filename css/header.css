@@ -1,10 +1,10 @@
 .nav {
 
         justify-content: center;
-        padding-top: 7%;
-        padding-bottom: 7%;
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-top: 9%;
+        padding-bottom: 8%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
         display: flex;
         gap: 20%;
         align-items: center;
@@ -15,7 +15,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        gap: 40%;
+        gap: 50%;
 }
 
 a{
@@ -23,6 +23,10 @@ a{
 }
 
 .cabecalho_img{
-        height: 1.7em;
+        height: 1.5em;
         width: auto;
+}
+.cabecalho_logo{
+       height: 2.5em;
+        width: auto; 
 }

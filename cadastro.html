@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Use Taíssa</title>
 </head>
-
 <body>
 
     <header>
@@ -42,6 +42,32 @@
 
         </nav>
     </header>
+    
+    <div class="cadastro-container">
+        <h2 class="cadastro-title">Cadastre-se</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required class="input-space">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required class="input-space">
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required class="input-space">
+            </div>
+            <div class="input-group">
+                <label for="password-repeat">Repita a Senha</label>
+                <input type="password" id="password-repeat" name="password-repeat" required class="input-space">
+            </div>
+
+            <div class="input-group">
+                <button type="submit" class="cadastro-button">Finalizar Cadastro</button>
+            </div>
+        </form>
+    </div>
 
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
             </div>
 
             <a href="usetaissa.html">
-                <img src="assets/1000743577-removebg-preview.png" alt="Logo"  class="cabecalho_img">
+                <img src="assets/1000743577-removebg-preview.png" alt="Logo"  class="cabecalho_logo">
             </a>
 
             <div class="container">
@@ -42,5 +43,26 @@
         </nav>
     </header>
     
+    <div class="login-container">
+        <h2 class="login-title">Iniciar sessão</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required class="input-space">
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required class="input-space">
+                <a href="login.html" class="reset-senha">Esqueci minha senha</a>
+            </div>
+
+            <div class="input-group">
+                <button type="submit" class="login-button">Entrar</button>
+                <p class="login-texto">Não tem uma conta? <a href="cadastro.html" class="link-cadastro">Cadastre-se</a></p>
+            </div>
+
+        </form>
+    </div>
+
 </body>
 </html>

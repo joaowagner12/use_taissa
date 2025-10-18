@@ -1,0 +1,40 @@
+.cadastro-container{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: left;
+    padding-bottom: 2em;
+    color:#7f5a3d;
+    font-size:16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.input-space{
+    height: 30px;
+}
+
+.cadastro-button{
+    color: white;
+    background-color: #7f5a3d;
+    font-size:16px;
+    font-family: "Rubik", sans-serif;
+    padding: 0.3em;
+}
+
+.cadastro-title{
+    padding-top: 1em;
+    align-self: left;
+    font-size: 22px;
+}

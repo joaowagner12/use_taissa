@@ -11,6 +11,15 @@ h1{
     font-size:72px;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color:#7f5a3d;
+    font-size:24px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }

@@ -1,0 +1,59 @@
+.login-container{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: left;
+    padding-bottom: 2em;
+    color:#7f5a3d;
+    font-size:16px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link-cadastro{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input-space{
+    height: 30px;
+}
+
+.login-button{
+    color: white;
+    background-color: #7f5a3d;
+    font-size:16px;
+    font-family: "Rubik", sans-serif;
+    padding: 0.3em;
+}
+
+.reset-senha{
+    color:#7f5a3d;
+    font-size:12px;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+
+.login-title{
+    padding-top: 1em;
+    align-self: left;
+    font-size: 22px;
+}
+
+.login-texto{
+    text-align: center;
+}
