@@ -1,0 +1,19 @@
+.sobre_nos_container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.sobre_nos_title{
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    padding-top: 10%;
+}
+
+.sobre_nos_p{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
