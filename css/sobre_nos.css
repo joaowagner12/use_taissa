@@ -3,8 +3,8 @@
     flex-direction: column;
     background-color: white;
     gap: 2em;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .sobre_nos_title{
@@ -14,6 +14,11 @@
 }
 
 .sobre_nos_p{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+
+.sobre_nos_texto{
     font-family: "Rubik", sans-serif;
     font-size: 14px;
     text-align: justify;
