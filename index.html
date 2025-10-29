@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -44,6 +46,28 @@
         </nav>
     </header>
 
+    <section class="carrossel">
+
+        <div class="carrossel__container">
+
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="assets/Carrossel/2_20251027_212400_0001.png" alt="Item 1"></div>
+                    <div class="swiper-slide"><img src="assets/Carrossel/3_20251027_212400_0002.png" alt="Item 2"></div>
+                    <div class="swiper-slide"><img src="assets/Carrossel/4_20251027_212400_0003.png" alt="Item 3"></div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
     <footer>
         <nav class="footer_nav">
             <a href="sobre_nos.html" class="footer_link">Sobre nós</a>
@@ -52,6 +76,22 @@
             <p class="footer_copyright">© 2025 Use Taíssa. Todos os direitos reservados.</p>
         </nav>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        },
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
+    });
+    </script>
+
 
 </body>
 </html>

@@ -1,0 +1,11 @@
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+.carrossel{
+    padding-top: 5%;
+}
