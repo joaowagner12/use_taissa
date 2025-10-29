@@ -28,3 +28,45 @@ h2{
     font-weight: 400;
     font-style: normal;
 }
+
+.index_produtos{
+    display: flex;
+    flex-direction: column;
+}
+
+.index_produto{
+    padding: 15%;
+}
+
+.index_produto img{
+    width: 100%;
+}
+
+.index_produto_title{
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.index_produto_preço{
+    color: rgb(87, 87, 87);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+
+.index_produto_link{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-decoration: none;
+}
+
+.comprar_button{
+    border-radius: 14px;
+    padding: 0.8em;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    background-color: #7f5a3d;
+    border: none;
+}
